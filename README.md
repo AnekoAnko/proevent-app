@@ -114,7 +114,3 @@ Add images to events by providing a publicly accessible image URL. Images are di
 - Secure authentication via Supabase
 - Environment variables for sensitive data
 - Input validation and sanitization
-
-## License
-
-MIT License - feel free to use this project for your own purposes.
