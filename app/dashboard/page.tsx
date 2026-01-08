@@ -1,9 +1,9 @@
 import { redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
-import { AppHeader } from "@/components/app-header"
-import { AppFooter } from "@/components/app-footer"
-import { EventsList } from "@/components/events-list"
-import { EventStats } from "@/components/event-stats"
+import { AppHeader } from "@/components/AppHeader"
+import { AppFooter } from "@/components/AppFooter"
+import { EventsList } from "@/components/EventsList"
+import { EventStats } from "@/components/EventStats"
 
 export default async function DashboardPage() {
   const supabase = await createClient()

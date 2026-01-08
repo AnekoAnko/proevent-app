@@ -10,7 +10,7 @@ import { Separator } from "@/components/ui/separator"
 import { ArrowLeft, Calendar, MapPin, Users, Clock, Edit, Trash2, User, ImageIcon } from "lucide-react"
 import { format, formatDistanceToNow } from "date-fns"
 import Link from "next/link"
-import { EditEventDialog } from "@/components/edit-event-dialog"
+import { EditEventDialog } from "@/components/EditEventDialog"
 
 interface Attendee {
   id: string

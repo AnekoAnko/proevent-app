@@ -1,5 +1,5 @@
-import { AppHeader } from "@/components/app-header"
-import { AppFooter } from "@/components/app-footer"
+import { AppHeader } from "@/components/AppHeader"
+import { AppFooter } from "@/components/AppFooter"
 import { Button } from "@/components/ui/button"
 import { Calendar, Users, MapPin, Sparkles, Wand2, Shield } from "lucide-react"
 import Link from "next/link"

@@ -8,8 +8,8 @@ import { Calendar, MapPin, MoreVertical, Trash2, Users, Edit, Eye, ImageIcon } f
 import { format } from "date-fns"
 import { createClient } from "@/lib/supabase/client"
 import { useState } from "react"
-import { ManageAttendeesDialog } from "@/components/manage-attendees-dialog"
-import { EditEventDialog } from "@/components/edit-event-dialog"
+import { ManageAttendeesDialog } from "@/components/ManageAttendeesDialog"
+import { EditEventDialog } from "@/components/EditEventDialog"
 import Link from "next/link"
 
 interface EventCardProps {

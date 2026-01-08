@@ -1,5 +1,5 @@
-import { AppHeader } from "@/components/app-header"
-import { AppFooter } from "@/components/app-footer"
+import { AppHeader } from "@/components/AppHeader"
+import { AppFooter } from "@/components/AppFooter"
 import { createClient } from "@/lib/supabase/server"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Card } from "@/components/ui/card"

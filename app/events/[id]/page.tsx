@@ -1,8 +1,8 @@
 import { notFound, redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
-import { AppHeader } from "@/components/app-header"
-import { AppFooter } from "@/components/app-footer"
-import { EventDetails } from "@/components/event-details"
+import { AppHeader } from "@/components/AppHeader"
+import { AppFooter } from "@/components/AppFooter"
+import { EventDetails } from "@/components/EventDetails"
 
 export default async function EventPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params

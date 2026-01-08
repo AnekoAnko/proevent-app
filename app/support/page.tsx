@@ -1,5 +1,5 @@
-import { AppHeader } from "@/components/app-header"
-import { AppFooter } from "@/components/app-footer"
+import { AppHeader } from "@/components/AppHeader"
+import { AppFooter } from "@/components/AppFooter"
 import { createClient } from "@/lib/supabase/server"
 import { Mail, MessageCircle, Book, HelpCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"

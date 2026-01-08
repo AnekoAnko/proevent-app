@@ -1,8 +1,8 @@
 import { redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
-import { AppHeader } from "@/components/app-header"
-import { AppFooter } from "@/components/app-footer"
-import { AISuggestionsForm } from "@/components/ai-suggestions-form"
+import { AppHeader } from "@/components/AppHeader"
+import { AppFooter } from "@/components/AppFooter"
+import { AISuggestionsForm } from "@/components/AISuggestionsForm"
 
 export default async function AISuggestionsPage() {
   const supabase = await createClient()

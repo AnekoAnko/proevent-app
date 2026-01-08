@@ -7,8 +7,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Plus, Search } from "lucide-react"
-import { CreateEventDialog } from "@/components/create-event-dialog"
-import { EventCard } from "@/components/event-card"
+import { CreateEventDialog } from "@/components/CreateEventDialog"
+import { EventCard } from "@/components/EventCard"
 
 interface Event {
   id: string
