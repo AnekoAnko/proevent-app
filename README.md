@@ -31,13 +31,17 @@ A modern, full-stack event management application built with React, Next.js, Exp
 
 ### Environment Variables
 
-Add the following environment variable to your Vercel project:
+Add the following environment variable to your project:
 
 ```
 GEMINI_API_KEY=your_gemini_api_key_here
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000 or your deployed url
 ```
 
 Get your Gemini API key from: https://aistudio.google.com/app/apikey
+Create your database base here: https://supabase.com
 
 ### Database Setup
 
@@ -52,8 +56,8 @@ These scripts run automatically when you first use the app.
 
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Add environment variables in Vercel
-4. Deploy to Vercel or run locally: `npm run dev`
+3. Create .env and add environment variables
+4. Run locally: `npm run dev`
 
 ## Tech Stack
 
